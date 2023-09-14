@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/MATEMATICA[0X].css"><!--'ETIQUETA LINK'con esto vinculamos la hoja css que dara estilos por su direccion de ruta ../ nos permite retrocee a la carpeta anterior-->
+	
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!---->
+	<title>ELEMENTOS DEL VECTOR</title>
+</head>
+<body>
+
+  <!----------------------------------------------------MENU DE NAVEGACION--------------------------------------------->
+
+    <nav id="BARRA">
+	  <ul id="MENU">
+
+	  	<li><a id="INICIO" href="../PROYECTO_GENERAL.html">['PAGINA PRINCIPAL']</a></li>
+
+
+        <li><a href="#">[' AJUSTES DE APARIENCIA ']</a>
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="">TEMA OSCURO (PREDETERMINADO)</a>
+	  	<li><a href="">TEMA CLARO</a></li>
+	  	<li><a href="">TEMA OFICINA</a></li>
+	  	<li><a href="">TEMA FUTURISTA</a></li>
+        </ul>
+        </li>
+
+	  	<li><a href="#">['AJUSTES DEL SONIDO']</a>  
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="">CLASICA</a></li>
+	  	<li><a href="">ELECTRONICA</a></li>
+	    </ul>
+	    </li>
+      
+
+	    <li><a href="#">['INFORMACION ACERCA DE ESTA PAGINA']</a>
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="ACERCADE.html">INFORMACION ACERCA DE ESTE SITIO</a></li>
+	  	<li><a href="ACERCADE.html">INFORMACION ACERCA DEL CREADOR DEL SITIO</a></li>
+ 	    </ul>
+        </li>
+
+        <li><a id="INICIO" href="PROYECTO_GENERAL.html">['QUEJAS O SUGERENCIAS']</a></li>
+
+
+      </ul>
+	</nav>
+
+
+
+	</div>
+
+	<article>Operaciones Con Vectores</article>
+
+	<div>
+		<p class="Grupo1">Producto De Un Vector Por Un Escalar</p>
+		<P>La operacion vector por un escalar es una operacion que es sencilla ya que consiste en multiplicar el escalar por cada una de las componentes del vector es decir por cada elemento de este y el resultado es otro vector del mismo espacio vectorial.</P>
+
+		<P>Expresion : 
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mi>&#x3B1;</mi><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi mathvariant="normal">&#x211D;</mi><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>&#x21D2;</mo><mo>&#xA0;</mo><mi>&#x3B1;</mi><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>&#x3B1;</mi><mi>x</mi><mn>1</mn><mo>,</mo><mi>&#x3B1;</mi><mi>x</mi><mn>2</mn><mo>,</mo><mi>&#x3B1;</mi><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>&#x3B1;</mi><mi>x</mi><mi>n</mi><mo>)</mo></math>
+		</P>
+		<P>Ejemplo : 
+
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mn>5</mn><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi mathvariant="normal">&#x211D;</mi><mo>&#xA0;</mo><mi>y</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>C</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mn>5</mn><mo>&#x2219;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover></math>
+		</P>
+
+		<p>Proceso : 
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5</mn><mo>&#x2219;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>5</mn><mo>&#x2219;</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>&#x2219;</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>&#x2219;</mo><mn>6</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>10</mn><mo>,</mo><mn>20</mn><mo>,</mo><mn>30</mn><mo>)</mo></math>
+		</p>
+	</div>
+
+	<div>
+		<p class="Grupo1">Suma De Vectores</p>
+		<p>La suma de vectores es de las operaciones mas simples que se pueden realizar con vectores ya que consiste en sumar las componentes de cada uno de los dos vectores respectivamente y como resultado se obtiene un vector de la misma dimencion que los dos primeros por lo que para que se pueda realizar la suma de dos vectores dichos vectores deben pertenecer al mismo espacio vectorial de la misma dimencion.</p>
+        
+        <p> Expresion :
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+        </p>
+        <p>
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>+</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>+</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>+</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>+</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+        </p>
+
+        <p>Ejemplo : 
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mi>y</mi><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mi>c</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></math>
+        </p>
+
+        <p>Proceso :
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>9</mn><mo>)</mo></math>
+
+        </p>
+	</div>
+
+
+
+
+	<div>
+		<p class="Grupo1">Resta De Vectores</p>
+		<p>La resta de vectores es igual de sencilla que la suma de vectores con la diferencia de que en la resta se suma el opuesto de cada componente del segundo vector asiendo alucion a la resta como la suma con el opuesto aditivo.</p>
+        
+        <p> Expresion :
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+        </p>
+        <p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>(</mo><mo>-</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>-</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>-</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>-</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>-</mo><mi>y</mi><mi>n</mi><mo>)</mo></math>
+        </p>
+        <br>
+
+        <p>Ejemplo : 
+        	<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mo>-</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup><mo>&#xA0;</mo><mi>c</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></math>
+        </p>
+
+        <p>Proceso :
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>-</mo><mo>(</mo><mo>-</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mo>-</mo><mo>-</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>-</mo><mn>4</mn><mo>,</mo><mn>1</mn><mo>-</mo><mn>6</mn><mo>)</mo><mo>=</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>5</mn><mo>)</mo><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>,</mo><mo>-</mo><mn>5</mn><mo>)</mo></math>
+
+        </p>
+	</div>
+
+
+
+
+
+
+
+	<div>
+		<p class="Grupo1">Producto Escalar Producto Punto O Producto Interior</p>
+		<p>El producto escalr tambien conocido como producto interno es aquella operecion en la que se multiplican dos vectores de la misma dimencion  y que da como resultado un escalr de ahi el nombre abajo la expresion y el ejmplo</p>
+
+		<P>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math> 
+		</P>
+
+		<p>
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mi>y</mi><mn>1</mn><mo>+</mo><mi>x</mi><mn>2</mn><mi>y</mi><mn>2</mn><mo>+</mo><mi>x</mi><mn>3</mn><mi>y</mi><mn>3</mn><mo>+</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>z</mi><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi mathvariant="normal">&#x211D;</mi></math>
+		</p>
+
+		<br>
+
+		<p>Ejemplo :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>d</mi><mi>e</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mi>c</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></math> 
+		</p>
+
+		<p>Proceso : 
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>&#x2219;</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>&#x2219;</mo><mn>4</mn><mo>+</mo><mn>7</mn><mo>&#x2219;</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>4</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>7</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>31</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>31</mn><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi mathvariant="normal">&#x211D;</mi></math>
+		</p>
+
+		<br><br> <!--Salto de linea -->
+
+		<p class="Grupo1">Propiedades Del Producto Escalar Producto Punto O Producto Interior</p>
+		<p class="Grupo1">1 - Cuadrado De Un Vector Producto Punto</p>
+		<p>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mo>&#x21D2;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><msup><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mn>2</mn></msup></math> 	
+		</p>
+
+		<br>
+
+		<p>Ejemplo :
+		</p>
+
+
+		<p class="Grupo1">2 - Propiedad Conmutativa Del Producto Punto</p>
+		<p>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover></math>
+		</p>
+		<br>
+
+		<p>Ejemplo :
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mo>&#x21D2;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></math> Aviso este ejemplo no sirve como demostracion formal
+		</p>
+ 
+		<p>Proceso :
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>&#x2219;</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>&#x2219;</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>&#x2219;</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>&#x2219;</mo><mn>1</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>(</mo><mn>5</mn><mo>&#x2219;</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>&#x2219;</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>&#x2219;</mo><mn>4</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>)</mo></math>
+		</p>
+		<p>
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2192;</mo><mo>(</mo><mn>20</mn><mo>)</mo><mo>=</mo><mo>(</mo><mn>20</mn><mo>)</mo><mo>&#x2194;</mo><mn>20</mn><mo>=</mo><mn>20</mn><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>&#x2234;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover></math>
+		</p>
+
+		<br><br>
+
+		<p class="Grupo1">3 - Propiedad Distributiva Del Producto Punto</p>
+		<p>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>z</mi><mn>1</mn><mo>,</mo><mi>z</mi><mn>2</mn><mo>,</mo><mi>z</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>z</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mi>n</mi></msup></math>
+		</p>
+		<p>
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x21C0;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mo>(</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover></math>
+		</p>
+
+        <br>
+		<p>Ejemplo :
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mo>&#x21D2;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mo>(</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>z</mi><mo>&#x2192;</mo></mover></math>
+		</p>
+ 
+		<p>Proceso :
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>[</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>[</mo><mo>(</mo><mn>10</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>]</mo><mo>&#xA0;</mo><mo>=</mo><mo>(</mo><mn>8</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>10</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>12</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>10</mn><mo>)</mo></math>
+		</p>
+		<br>
+		<p>
+			<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>[</mo><mo>(</mo><mn>10</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>]</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>26</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>38</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>(</mo><mn>20</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>26</mn><mo>+</mo><mn>38</mn><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>(</mo><mn>64</mn><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>64</mn><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mn>64</mn><mo>=</mo><mn>64</mn></math>
+		</p>
+		<br><br>
+		<p class="Grupo1">4 - Propiedad Asociativa Del Producto Punto Y Escalar</p>
+		<p>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mi>k</mi><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi mathvariant="normal">&#x211D;</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>y</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mi>x</mi><mo>.</mo><mo>.</mo><mo>.</mo><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>y</mi><mi>n</mi><mo>)</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>(</mo><mi>K</mi><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>)</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>k</mi><mo>&#xA0;</mo><mo>(</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>)</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>(</mo><mi>k</mi><mo>&#x2219;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>)</mo></math>
+		</p>
+		
+        <br>
+		<p>Ejemplo :
+			
+		</p>
+ 
+		<p>Proceso :
+			
+		</p>
+		<br>
+		<p>
+			
+		</p>
+		<br><br>
+		<p class="Grupo1">5 - Propiedad Neutro Multiplicativo Del Producto Punto Y Escalar</p>
+		<p>Expresion :
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mn>0</mn><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo><mi>x</mi><mi>n</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><mi>V</mi><mo>&#xA0;</mo><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mover><mn>0</mn><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mn>0</mn></math>
+		</p>
+		
+        <br>
+		<p>Ejemplo :
+			
+		</p>
+ 
+		<p>Proceso :
+			
+		</p>
+		<br>
+		<p>
+			
+		</p>
+
+
+
+	</div>
+
+
+	<div>
+	<p class="Grupo1">
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>n</mi><mi>g</mi><mi>u</mi><mi>l</mi><mi>o</mi><mo>&#xA0;</mo><mi>E</mi><mi>n</mi><mi>t</mi><mi>r</mi><mi>e</mi><mo>&#xA0;</mo><mi>D</mi><mi>o</mi><mi>s</mi><mo>&#xA0;</mo><mi>V</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>o</mi><mi>r</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mi>D</mi><mi>e</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>2</mn></msup><mo>&#xA0;</mo><mi>a</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup></math>
+		
+	</p>
+	<br>
+	<p>Para explicar rapido la idea de esto se hace referencia al angulo entre rectas recuerdese que en geometria analitica el angulo entre dos recta era el angulo que formaba la interseccion de dos rectas entonces el angulo entre vectores es el angulo que forman dos vectores</p>
+    <br>
+	<P>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>x</mi><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>2</mn></msup><mo>&#xA0;</mo><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#x2220;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>&#xA0;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac></math>
+	</P>
+	<br>
+	<p>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>j</mi><mi>e</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>o</mi><mo>&#xA0;</mo><mi>p</mi><mi>a</mi><mi>r</mi><mi>a</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>2</mn></msup><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>2</mn></msup><mo>&#xA0;</mo><mi>c</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mi>e</mi><mi>l</mi><mo>&#xA0;</mo><mi>a</mi><mi>n</mi><mi>g</mi><mi>u</mi><mi>l</mi><mi>o</mi><mo>&#xA0;</mo><mi>q</mi><mi>u</mi><mi>e</mi><mo>&#xA0;</mo><mi>f</mi><mi>o</mi><mi>r</mi><mi>m</mi><mi>a</mi><mi>n</mi><mo>&#xA0;</mo><mi>d</mi><mi>i</mi><mi>c</mi><mi>h</mi><mi>o</mi><mi>s</mi><mo>&#xA0;</mo><mi>v</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>o</mi><mi>r</mi><mi>e</mi><mi>s</mi></math> 
+	</p>
+	<p>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mi>r</mi><mi>o</mi><mi>c</mi><mi>e</mi><mi>s</mi><mi>o</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#x2219;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac><mo>&#xA0;</mo><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#x2219;</mo><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac><mo>&#xA0;</mo><mo>&#x2194;</mo><mo>&#xA0;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mn>3</mn><mo>*</mo><mo>-</mo><mn>1</mn><mo>+</mo><mn>5</mn><mo>*</mo><mn>3</mn><mo>)</mo></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mo>-</mo><mn>3</mn><mo>+</mo><mn>15</mn><mo>)</mo></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mo>(</mo><mn>12</mn><mo>)</mo></mrow><mrow><msqrt><msup><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup></msqrt><msqrt><msup><mrow><mo>(</mo><mo>-</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></msqrt></mrow></mfrac></math>
+	</p>
+
+
+	<P>
+	<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2192;</mo><mo>&#xA0;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>12</mn><mrow><msqrt><mn>9</mn><mo>+</mo><mn>25</mn></msqrt><msqrt><mn>1</mn><mo>+</mo><mn>9</mn></msqrt></mrow></mfrac><mo>&#xA0;</mo><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>12</mn><mrow><msqrt><mn>34</mn></msqrt><msqrt><mn>10</mn></msqrt></mrow></mfrac><mo>&#xA0;</mo><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>12</mn><msqrt><mn>34</mn><mo>*</mo><mn>10</mn></msqrt></mfrac><mo>&#x2194;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>12</mn><msqrt><mn>340</mn></msqrt></mfrac><mo>&#x2194;</mo><mi>&#x3B8;</mi><mo>=</mo><msup><mi>cos</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#xA0;</mo><mfrac><mn>12</mn><msqrt><mn>340</mn></msqrt></mfrac><mo>&#x2194;</mo><mi>&#x3B8;</mi><mo>=</mo><mn>49</mn><mo>.</mo><mn>398705</mn><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>.</mo><mo>=</mo><msup><mn>49</mn><mo>&#x2218;</mo></msup><mo>&#xA0;</mo><msup><mn>23</mn><mo>&#x2218;</mo></msup><mo>&#xA0;</mo><mn>55</mn><mo>.</mo><mn>34</mn></math>
+	</P>
+	<P>Observaciones - Si de casualidad tuvo dudas en por que la raiz de 10 y 34 se multiplicaron dentro de ottra raiz, se debe a una propiedad de los radicales que nos dice producto de raices de indices iguales es igual a otra raiz del mismo indice con radicando igual producto de los radicando ota observacion es el angulo se calculo con calculadora esto para no extender mas el proceso</P>
+	<br><br>
+	<p>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>x</mi><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#x2220;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mi>cos</mi><mo>&#xA0;</mo><mi>&#x3B8;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mrow><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#x2219;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover></mrow><mrow><mfenced open="|" close="|"><mover><mi>x</mi><mo>&#x2192;</mo></mover></mfenced><mfenced open="|" close="|"><mover><mi>y</mi><mo>&#x2192;</mo></mover></mfenced></mrow></mfrac></math>
+	</p>
+	<P>
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>E</mi><mi>j</mi><mi>e</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>o</mi><mo>&#xA0;</mo><mi>p</mi><mi>a</mi><mi>r</mi><mi>a</mi><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mo>,</mo><mi>x</mi><mn>2</mn><mo>,</mo><mi>x</mi><mn>3</mn><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mo>,</mo><mi>y</mi><mn>2</mn><mo>,</mo><mi>y</mi><mn>3</mn><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mi>c</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>u</mi><mi>l</mi><mi>e</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mo>&#x2220;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mover><mi>y</mi><mo>&#x2192;</mo></mover></math>
+	</P>
+
+
+	
+</div>
+
+<div>
+	<p class="Grupo1">
+		<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mi>r</mi><mi>o</mi><mi>d</mi><mi>u</mi><mi>c</mi><mi>t</mi><mi>o</mi><mo>&#xA0;</mo><mi>V</mi><mi>e</mi><mi>c</mi><mi>t</mi><mi>o</mi><mi>r</mi><mi>i</mi><mi>a</mi><mi>l</mi><mo>&#xA0;</mo><mi>Y</mi><mo>&#xA0;</mo><mi>S</mi><mi>u</mi><mi>s</mi><mo>&#xA0;</mo><mi>P</mi><mi>r</mi><mi>o</mi><mi>p</mi><mi>i</mi><mi>e</mi><mi>d</mi><mi>a</mi><mi>d</mi><mi>e</mi><mi>s</mi></math>
+	</p>
+	<p>Primero definamos el producto vectorial, pero antes resaltemos algo importante y es que al querer representar un producto cruz debemos tener cuidado con el simbolo ya que para representar esta operacion se utiliza una x pero notese que esto es muy importante ya que si en vez de colocar la cruz colocamos un punto se entendera que es un producto punto y no un producto cruz, ahora si pasamos a su definicion</p>
+<p>
+	<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>x</mi><mn>1</mn><mi>x</mi><mo>,</mo><mi>x</mi><mn>2</mn><mi>y</mi><mo>,</mo><mi>x</mi><mn>3</mn><mi>z</mi><mo>)</mo><mo>&#xA0;</mo><mo>,</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mo>(</mo><mi>y</mi><mn>1</mn><mi>x</mi><mo>,</mo><mi>y</mi><mn>2</mn><mi>y</mi><mo>,</mo><mi>y</mi><mn>3</mn><mi>z</mi><mo>)</mo><mo>&#xA0;</mo><mo>&#x2208;</mo><mo>&#xA0;</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>3</mn></msup><mo>&#xA0;</mo><mi>e</mi><mi>n</mi><mi>t</mi><mi>o</mi><mi>n</mi><mi>c</mi><mi>e</mi><mi>s</mi><mo>&#xA0;</mo><mo>&#xA0;</mo><mover><mi>x</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>&#xD7;</mo><mo>&#xA0;</mo><mover><mi>y</mi><mo>&#x2192;</mo></mover><mo>&#xA0;</mo><mo>=</mo><mo>(</mo><mi>x</mi><mn>2</mn><mi>y</mi><mn>3</mn><mo>-</mo><mi>x</mi><mn>3</mn><mi>y</mi><mn>2</mn><mo>)</mo><mi>x</mi><mo>-</mo><mo>(</mo><mi>x</mi><mn>3</mn><mi>y</mi><mn>1</mn><mo>-</mo><mi>x</mi><mn>1</mn><mi>y</mi><mn>2</mn><mo>)</mo><mi>y</mi><mo>+</mo><mo>(</mo><mi>x</mi><mn>1</mn><mi>y</mi><mn>2</mn><mo>-</mo><mi>x</mi><mn>2</mn><mi>y</mi><mn>1</mn><mo>)</mo><mi>z</mi></math>
+</p>
+<P>Esta expresion puede ser confusa por lo que mostraremos otra forma con la que tambien se expresa notese que con algo llamado determinantes pdemos calcular el producto cruz sin memorizar esta expresion pero se vera mas adelante</P>
+
+	
+</div>
+
+
+<div>
+	
+</div>
+
+
+
+
+	
+
+
+
+
+
+</body>
+</html>

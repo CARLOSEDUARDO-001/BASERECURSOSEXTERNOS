@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="../css/MATEMATICA[0X].css"><!--'ETIQUETA LINK'con esto vinculamos la hoja css que dara estilos por su direccion de ruta ../ nos permite retrocee a la carpeta anterior-->
+       <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!---->
+	<title>COMPLEJOS01</title>
+</head>
+<body>
+
+	  <!----------------------------------------------------MENU DE NAVEGACION--------------------------------------------->
+
+    <nav id="BARRA">
+	  <ul id="MENU">
+
+	  	<li><a id="INICIO" href="../PROYECTO_GENERAL.html">['PAGINA PRINCIPAL']</a></li>
+
+
+        <li><a href="#">[' AJUSTES DE APARIENCIA ']</a>
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="">TEMA OSCURO (PREDETERMINADO)</a>
+	  	<li><a href="">TEMA CLARO</a></li>
+	  	<li><a href="">TEMA OFICINA</a></li>
+	  	<li><a href="">TEMA FUTURISTA</a></li>
+        </ul>
+        </li>
+
+	  	<li><a href="#">['AJUSTES DEL SONIDO']</a>  
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="">CLASICA</a></li>
+	  	<li><a href="">ELECTRONICA</a></li>
+	    </ul>
+	    </li>
+      
+
+	    <li><a href="#">['INFORMACION ACERCA DE ESTA PAGINA']</a>
+	  	<ul class="SUBMENU">
+
+	  	<li><a href="ACERCADE.html">INFORMACION ACERCA DE ESTE SITIO</a></li>
+	  	<li><a href="ACERCADE.html">INFORMACION ACERCA DEL CREADOR DEL SITIO</a></li>
+ 	    </ul>
+        </li>
+
+        <li><a id="INICIO" href="PROYECTO_GENERAL.html">['QUEJAS O SUGERENCIAS']</a></li>
+
+
+      </ul>
+	</nav>
+
+<article>Introduccion A Los Numeros Complejos</article>
+
+<div>
+<p class="Grupo1">Definicion Formal De Los Numeros Complejos</p>
+<p>
+	El conjunto de los numeros complejos se define como el conjunto de pares ordenados perteneciente a los reales solo y solo si dichos pares ordenados no contradicen la definiciones de suma y producto definidas para numeros complejos<br><br>
+</p>
+
+<p class="HermanoS">
+
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="normal">&#x2102;</mi><mo>=</mo><msup><mi mathvariant="normal">&#x211D;</mi><mn>2</mn></msup><mfenced open="{" close="}"><mrow><mfenced><mrow><mi>a</mi><mo>,</mo><mi>b</mi></mrow></mfenced><mo>/</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>&#x2208;</mo><mi mathvariant="normal">&#x211D;</mi></mrow></mfenced><mo>&#xA0;</mo><mi>S</mi><mi>i</mi><mo>&#xA0;</mo><mo>:</mo><mo>&#xA0;</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>c</mi><mo>,</mo><mi>b</mi><mo>+</mo><mi>d</mi><mo>)</mo><mo>&#xA0;</mo><mi>y</mi><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>a</mi><mi>c</mi><mo>-</mo><mi>b</mi><mi>d</mi><mo>,</mo><mi>a</mi><mi>d</mi><mo>+</mo><mi>b</mi><mi>d</mi><mo>)</mo></math></p> <br><br>
+
+<p>Ahora bien ya vimos la definicion formal de los complejos pero tenemos que tener en cuenta algo y es que si bien en la definicion de los complejos se usan pares ordenados como el que se muestra (a,b) debemos resaltar que generalmente no se representan asi sino que las complejos ademas de los pares reales agregan la unidad imaginaria siendo la forma mas comun de representar numero complejos la siguiente (a+bi), una ves aclarado esto ahora aclaremos o repasemos las propiedades de la unidad imaginaria, recuerdese que la unidad imaginaria i =  <math xmlns="http://www.w3.org/1998/Math/MathML"><msqrt><mo>-</mo><mn>1</mn></msqrt></math>   y  <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>i</mi><mn>2</mn></msup><mo>=</mo><mo>-</mo><mn>1</mn></math></p>
+
+<p>Con esto en mente ahora veamos porque las definiciones de suma y producto son asi asi que primero pasemos a la suma sin antes resaltar algo y es que en la suma de complejos solo se pueden sumar reales con reales e imaginarios con  imaginario por ejemplo si tenemos 5 + 2i + i + 2 = 7 + 3i esto es asi por que no podemos sumar 5 con 2i ya que 7i es distinto que 5 + 2i para ver mejor esto sustituyamos i por <math xmlns="http://www.w3.org/1998/Math/MathML"><msqrt><mo>-</mo><mn>1</mn></msqrt></math> asi tenemos que 5+2<math xmlns="http://www.w3.org/1998/Math/MathML"><msqrt><mo>-</mo><mn>1</mn></msqrt></math>= 5+2<math xmlns="http://www.w3.org/1998/Math/MathML"><msqrt><mo>-</mo><mn>1</mn></msqrt></math> y es el valor correcto ya que el valor  7<math xmlns="http://www.w3.org/1998/Math/MathML"><msqrt><mo>-</mo><mn>1</mn></msqrt></math> representa un producto que nisiquiera se acerca</p>
+<p>Veamos como sumar complejos en su forma (a+bi) entonces tenemos : (2+i) + (3+4i) = 2+i+3+4i = (2+3)+(i+4i) = (5+5i) si se observa bien es como si se sumara terminos semejantes donde los imaginarios son semejantes con los imaginarios y los reales con los reales, una ves visto como se suman los complejos pasamos a ver por que la deficion de productos de complejos es asi, nota si no entiende bien el mecanismos de suma y producto no se preocupe se vera mas adelante en esta seccion se trata de explicar ppor que el producto  y suma tienen esta definicion entonce</p>
+
+<p>Para el producto de complejos en su forma (a+bi) tenemos : (2+i)(3+4i) aqui el producto se da como un producto de binomios entonces recordado en el producto de binomios el producto de (2+i)(3+4i) = 2*3 + 2*4i + i*3 + 4<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>i</mi><mn>2</mn></msup></math> = 6 + 8i + i3 + 4<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>i</mi><mn>2</mn></msup></math> ahora sumamos lo terminos semejante pero antes recordemos que en un producto existe la propiedad conmutativa por lo que i3=3i, tambien recuerdese que la unidad imaginaria i al cuarado es igual a -1 por lo que   4<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>i</mi><mn>2</mn></msup></math> = 4(-1) = -4 entonces con esta informacion podemos expresar que 6 + 8i +i3 +4<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>i</mi><mn>2</mn></msup></math> = 6+ 8i + 3i + -4 = (6+-4) + (8i+3i) = (6-4) + (11i) = (2+11i)</p>
+<p>Y con esto terminamos la breve explicacion sobre el por que la suma y el producto de complejos se definen asi acontinuacion pasaremos a sus propiedades de campo ya que asi como lo numeros reales possen estas propiedades los complejo tambien possen proiedades de campo </p>
+
+
+
+</div>
+
+
+
+
+<article>Propiedades De Campo De Los Numeros Complejos
+<p class="Intro">Sean z1,z2,z3,z4,zn numeros complejos cualesquiera</p>
+</article>
+
+
+<div>
+	<p class="Grupo2">1-Propiedad Conmutativa De La Suma :</p>
+	<p>Esta propiedad nos dice que dado dos complejos podemos sumar el complejo 1 mas el complejo 2 o viseversa sumar el complejo 2 al complejo 1
+		sin alterar el resultado ya que ambas sumas dan como resultado el mismo tercer complejo 
+		<br><br><!--'EIQUETA BR' esta etiqueta nos permite dar un salto de linea en nuestro texto de html-->
+</p>
+<p>Expresion : Z1+Z2=Z2+Z1</p>
+</div>
+
+<div>
+	<p class="Grupo3">2-Propiedad Asociativa De La Suma :</p>
+	<p>Esta propiedad nos dice que si sumamos tres complejos podemos asociar dos complejo de distintas formas y sumarle el tercer complejo sin alterar el resultado, en pocas palabras no importa como asocienmos la suma de tres complejos simpre nos dara el mismo resultado es decir un complejo
+		<br><br><!--'EIQUETA BR' esta etiqueta nos permite dar un salto de linea en nuestro texto de html-->
+	</p>
+<p>Expresion : Z1+(Z2+Z3)=(Z1+Z2)+Z3</p>
+
+</div>
+
+<div>
+	<p class="Grupo4">3-Propiedad Del Elemento Neutro Aditivo En La Suma :</p>
+	<p>Esta propiedad nos dice si sumamos un complejo con el complejo neutro aditivo nos dara como resultado el complejo incial</p>
+	<br><br>
+	<p>Expresion : Sea 0 El complejo neutro aditivo tal que 0=(0+0i) y Z1 un complejo cualesquiera distinto a 0 entonces Z1+0=Z1</p>
+</div>
+
+<div>
+	<p class="Grupo5">4-Propiedad Del Inverso Aditivo En La Suma :</p>
+	<p>Esta propiedad nos dice que si a un complejo le sumamos su inverso aditivo obtenemos como resultado el complejo neutro</p>
+	<br><br>
+	<p>Expresion : Sea (-Z1) el inverso aditivo de Z1 entonces Z1 + (-Z1) = 0 </p>
+</div>
+
+<div>
+	<p class="Grupo6">5-Propiedad Conmutativa Del Producto :</p>
+	<p>Esta propiedad nos dice que podemos cambiar el orden de multiplicacion de dos complejos y no alteramos el resultado puesto a que ambas multiplicacion llegaran al mismo numero complejo como resultado</p>
+	<br><br>
+	<p>Expresion : Z1*Z2=Z2*Z1</p>
+</div>
+
+<div>
+	<p class="Grupo7">6-Propiedad Conmutativa Del Producto :</p>
+	<p>Esta prodiedad nos dice que dentro de un producto de complejos podemos efectuar el producto de varios complejo de distintas formas de asociacion y ahun asi no alteramos el resultado final que resulta en otro complejo</p>
+	<br><br>
+	<p>Expresion : (Z1*Z2)*Z3=Z1*(Z2*Z3)</p>
+</div>
+
+<div>
+	<p class="Grupo8">7-Propiedad Del Neutro Multiplicativo Del Producto :</p>
+	<p>Esta propiedad nos dice que si multiplicamos un complejo por el complejo neutro multiplicativo tendremos como resultado al complejo inicial es decir el producto sera igual al complejo inicial</p>
+	<p>Expresion : Sea 1 El complejo neutro multiplicativo tal que 1=(1+0i) y Z1 un complejo cualesquiera distinto a 1 entonces Z1*1=Z1</p>
+</div>
+
+<div>
+	<p class="Grupo9">8-Propiedad Propiedad Del Inverso Multiplicatido Del Producto :</p>
+	<p>Esta propiedad nos dice que si multiplicamos el un complejo por su inverso multiplicativo tendremos como resultado el complejo deutro multiplicativo</p>
+
+	<p>Expresion : Sea <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>Z</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> el inverso multiplicativo de Z1 talque Z1 sea distinto de 0 entonces Z1*<math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>Z</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></math> = 1 </p>
+</div>
+
+<div>
+	<p class="Grupo10">9-Propiedad Distributiva De La Suma Y El Producto :</p>
+	<p>Esta propiedad nos dice que el producto de un complejo por la suma de dos complejos es igual a a la suma del complejo por cada complejo de la suma abajo la expresion</p>
+	<p>Expresion : Z1*(Z2+Z3)=Z1*Z2+Z1*Z3</p>
+</div>
+
+
+<div>
+	<p>Y con esto concluimos esta seccion en la que hablamos de la definicion formal de un numero complejo y tambien de la propiedades de campo de estos, si regresa al temario de matematicas podra acceder a la siguiente seccion donde veremos las distintas formas de representar un complejo asi como los elementos que podemos hallar en esto como adelanto se vera su representacion polar ,  trigonometrica , exponecial, y sus elementos como lo es el modulo y el argumento.</p>
+</div>
+
+
+
+
+<a href="../MATEMATICA[ORIGEN].html" class="BtnF1"><span id="S1"></span><span id="S2"></span><span id="S3"></span><span id="S4"></span>
+	Preione Aqui Para Regresar Al Temario General De Matematicas</a>
+
+</body>
+</html>

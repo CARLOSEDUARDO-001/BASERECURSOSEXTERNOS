@@ -1,0 +1,229 @@
+/*Guia CSS Seccion 2/10*/
+
+/*
+Durante Este Proyecto Se Explicara Brevemente El Funcionamiento De
+Cada Codigo Esencial 'CSS'
+-CSS significa Cascade Style Sheets (Hojas de estilos en cascada)
+-Es un lenguaje de diseno 
+*/
+
+/*-----------------------------------------------------INICIO----------------------------------------*/
+
+/*Los selectores nos permiten selccionar elementos a los cuales le podemos dar estilos*/
+
+/*Selectores compuestos (requieren mas de una palabra y un simbolo para usarlos) se componen de :
+ Selectores agrupados : Se usan para agrupar varias clases y no repetir estilos varias veces sintaxis .X,.Y,.Z etc
+*/
+
+
+/*
+
+ Selectores combinadores : 
+                         - Selector decendiente: Nos permite seleccionar  elementos que estan dentro de otros elementos
+                         - Selector de hermano siguiente : 
+                         -Selector de hermano anterior               
+*/
+
+/*Selectores compuestos (requieren mas de una palabra y un simbolo para usarlos) se componen de :*/
+
+
+
+/*-----------------------------Fin De La Seccion 1/10 Vaya A MATEMATICA[0X] Para Ver La Seccion 3/10----------------------------------*/
+
+/*----------------------CODIGO DE LA SECCION VEA ESTE CODIGO YA QUE ES EL QUE SE ESTUDIARA EN ESTA SECCION----------------------------*/
+
+
+
+
+.Grupo1,.Grupo2,.Grupo3,.Grupo4,.Grupo5,.Grupo6,.Grupo7,.Grupo8,.Grupo9,.Grupo10
+/*(Selector De Agrupacion) con el la coma podemos agrupar varias clases y ponerle el mismo estilo a esas clases que estan en nuestro archivo html*/
+{
+color :silver;
+}
+
+
+div p /*(Selector Desendiente) con un espacion espesificamos que vamos a buscar el elemento dentro de otro*/
+{
+	color :silver;
+
+}
+
+
+
+/*!!!CODIGO FUERA DE LA SECCION (FAVOR DE IGNORAR EL CODIGO DESPUES DE ESTE COMENTARIO Y MEJOR VAYA A MATEMATICA[0C] Para Ver La Seccion 3/10)!!!*/
+
+
+
+
+div
+{
+	 margin-top: 10px; /*Aplica un margen superior en este caso el margen superios fue de 100px(pixeles)*/
+	 margin-left:5%; /*Aplica margen del lado izquierdo en este caso la dimencion del margen se dio en px(100 pixeles)*/ 
+	 margin-right: 5%; /*Aplica margen del lado derecho en este caso la dimencion del margen se dio en px(100 pixeles)*/
+   padding: 15px 30px; /*Estilo que aplica relleno*/
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255,255,255);
+  background: rgb(32,37,43,0.7);
+
+}
+
+
+
+body
+{
+	background: rgb(10,10,10);
+}
+article
+{
+ font-size: 150%; /*Agranda el tamano de la letra por porcentages*/
+ color:gold;
+ 
+ margin-top: 10px; /*Aplica un margen superior en este caso el margen superios fue de 100px(pixeles)*/
+     margin-left:5%; /*Aplica margen del lado izquierdo en este caso la dimencion del margen se dio en px(100 pixeles)*/ 
+     margin-right: 5%; /*Aplica margen del lado derecho en este caso la dimencion del margen se dio en px(100 pixeles)*/
+     background: rgb(42,49,58);/*le da color de fondo  alas clases y rgb especifica que color tendra*/
+
+     padding: 15px 30px; /*Estilo que aplica relleno*/
+
+        /*
+        border-top:  rgb(0, 6, 53) 5px dashed;  /*Aplica un borde superior de 5 px
+     border-right:  rgb(0, 6, 53) 10px double;  /*Aplica un borde derecho de 10px
+     border-bottom:  rgb(0, 6, 53) 10px dotted;  /*Aplica un borde inferior de 5px
+     border-left:  rgb(0, 6, 53) 5px solid;  /*Aolica un borde isquierdo de 10px
+     */
+}
+
+
+
+
+p
+{
+    font-family: bold;
+    font-size: 130%;
+    color: rgb(230,230,230);
+    margin-bottom: 10px; /*Aplica margen inferior */
+    margin-left:10px; /*Aplica margen del lado izquierdo en este caso la dimencion del margen se dio en px(100 pixeles)*/ 
+    margin-right: 10px; /*Aplica margen del lado derecho en este caso la dimencion del margen se dio en px(100 pixeles)*/
+    margin-top: 10px; /*Aplica margen en la parte superior*/
+
+}
+.Intro
+{
+ /*le da color de fondo  alas clases y rgb especifica que color tendra*/
+ font-size: 80%;
+}
+
+
+
+.BtnF1
+{
+
+ 
+  border-width: 3px; /*Estilo que define el grosor del borde en este caso fue de 5 peiceles de grosor */
+  border-spacing: 20px;
+  border-style: solid;
+
+  margin-top: 50px; /*Aplica un marge superior de 100px*/
+ margin-left:350px; /*Aplica margen del lado izquierdo en este caso la dimencion del margen se dio en px(100 pixeles)*/ 
+ margin-right: 350px; /*Aplica margen del lado derecho en este caso la dimencion del margen se dio en px(100 pixeles)*/
+
+
+  
+  border-color: rgb(255,255,255); /*Estilo que aplica color al borde y el rgb da el colo definido por la norma (n,n,n)*/
+  display: inline-block;
+  padding: 15px 30px;
+  color : white;
+  letter-spacing: 4px; /*Aplica un espacio entre las letras del texto con una distancia de 4 pixeles entre cada letra*/
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 2s;
+  background: rgb(0,0,0);
+}
+.BtnF1:hover
+{
+  background: rgb(232,49,49);
+  box-shadow: 0 0 10px rgb(232,49,49),0 0 40px rgb(232,49,49),0 0 100px rgb(232,49,49);
+}
+
+/*-------------------------------------------MENU CON SUBMENUS-----------------------------------------------*/
+
+#BARRA /*Busca el id BARRA Aplicara estilos solo a la barra*/
+{
+  font-size-adjust: 200px; /*Estilo que nos permite ajustar el tamano de la fuente*/
+  width: 100%;  /*Estilo que nos permite aplicar el ancho de objeto el ancho de la barra abarcara el 80% de la pantalla*/
+  margin: auto;/*Estilo de margen automatico en este caso permite centrar la barra*/
+  background-color: rgb(0,0,0);/*Estilo de color de fondo rgb*/ 
+  border-style: solid;
+  border-color: rgb(255,255,255);
+border-width: 1px;
+ 
+}
+#BARRA ul /*Busca la etiqueta ul dentro de el id barra*/
+{
+  list-style-type: none;
+  margin: 2px; 
+  margin-left: 0%; /*Margen izquierdo del 15 porciento de la longitud total de cada menu con relacion al submenu*/
+  padding: 1px; /*Estilo de relleno que crea una distancia entre el elemtno*/
+  margin : auto;
+}
+#MENU > li /*Busca dentro del id MENU la etiqueta li*/
+{
+  position: relative;
+  display: inline-block;
+}
+#MENU >li > a /**/
+{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+  background: rgb(0,0,0);
+
+
+}
+#MENU li a:hover
+{
+  background-color: rgb(255,255,255);
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+}
+.SUBMENU
+{
+  position: absolute;
+  width: 100%;
+  background-color:  rgb(0,0,0);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.SUBMENU li a /*Busca la clase SUBMENU y dentro de ella entra a las etiqueta li y finalmente busca dentro de li la etiqueta a y aplica el estilo*/
+{
+  display: block;
+  padding: 11px;
+  color: rgb(255,255,255);
+  text-decoration: none;
+
+  border-style: solid;
+  border-color: rgb(255,255,255);
+  border-width: 1px;
+
+ 
+}
+#MENU li:hover .SUBMENU
+{
+  visibility: visible;
+  opacity: 2;
+}
+#INICIO /*Busca el id INICIO*/
+{
+
+  background-color: rgb(0,0,0); /*Estilo de color de fondo*/
+  font-style: bold; /*Estilo de fuente cambia el estilo de la letra */
+}
+
+/*------------------------------------------------PIE DE PAGINA---------------------------------*/
