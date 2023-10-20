@@ -1,0 +1,50 @@
+Temario Ingles
+
+-Verbo To Be
+-Present Simple + 
+-Present Simple -
+-Question +
+-Question -
+-Goning To And Gonna
+
+-pronuntation
+-memorizar verbos y palabras 
+
+	notas
+		
+		-rama secundaria cambis de diferencia de main
+		-rama secundaria push
+		-manda cambio con merge se agregan esos cambios a principal
+		-la rama secundaria al hacer push como que se limpia(no se li,pia)
+		-al regresar a main los cambios se revierten a como estaba inicalmente
+		-con pull en main si se hiso merge con la rama secundaria se actualiza main
+		-main actualizada  
+		
+		
+		-en este caso la actualizacion de main es = a ramasecundaria no causo problemas y el git pull en rama secundaria no causo probles
+		
+		pero si no 
+		
+		si solo me cambio de nuevo a la rama secundaria
+	    me obligara a hacer pull?
+        el echo de cambiarme de nuevo a la rama segundaria trera cambios automaticos desde la rama main a la secundaria
+        no ara nada y solo la rama secundaria se quedara como estaba y al hacer git status solo mostrara mas diferencias con respecto a la rama original y la secundaria
+		
+		
+		es recommendable hacer pull en la rama secundaria?
+		el pull transformara la rama secundaria en una igual a la main
+		o solo actualizara y dejara los cambios originales  de la rama secundaria
+		si solo actualiza deja los cambios originales de secundaria y si secundaria tiene cambios en las mismas lineas de main ahi surgen los problemas merge?
+		
+		convendra hacer pull y hacer otra rama para que esta inicie actualizada y sin riesgo
+		de mergeclonflicts y hacer los cambios nesesarios?
+		
+		que se recomienda?
+		
+		-posibles comodines tener un segundo repositorio git
+		que siempre este actualizado y en el que se realizen la pruebas
+		
+		para que en el original se actualize a la ultima version
+		y copiar rapidamente lo echo en el secundario y evitar los mergcomflicts
+		
+		-comprobar estas preguntas en casa desde la cuenta pandathedestroyer
